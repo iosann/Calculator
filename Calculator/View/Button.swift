@@ -9,7 +9,7 @@ import UIKit
 
 class Button: UIButton {
 
-	var buttonArray = [UIButton]()
+	private(set) var buttonArray = [UIButton]()
 	private let symbolArray =
 		["0", ",", "=", "1", "2", "3", "+", "4", "5", "6", "-", "7", "8", "9", "×", "AC", "⁺∕₋", "%", "÷"]
 
@@ -50,8 +50,7 @@ class Button: UIButton {
 				button.backgroundColor = UIColor(red: 0.769, green: 0.769, blue: 0.769, alpha: 1)
 				button.setTitleColor(.black, for: .normal)
 				button.titleLabel?.font = UIFont(name: "FiraSans-Regular", size: 36)
-			default:
-				break
+			default: break
 			}
 		}
 	}
@@ -65,5 +64,4 @@ class Button: UIButton {
 	func setTitleForACButton(_ title: String) {
 		buttonArray[15].setTitle(title, for: .normal)
 	}
-
 }
