@@ -97,10 +97,6 @@ class Screen: UIView {
 		stackView.spacing = 14
 		stackView.distribution = .fill
 	}
-}
-
-extension Screen
-{
 
 	private func makeConstraints() {
 

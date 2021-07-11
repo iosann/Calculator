@@ -16,7 +16,6 @@
 		D0B711722664F453006C20B4 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B711712664F453006C20B4 /* Screen.swift */; };
 		D0B711792664F5AB006C20B4 /* FiraSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0B711772664F5AB006C20B4 /* FiraSans-Light.ttf */; };
 		D0B7117A2664F5AB006C20B4 /* FiraSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0B711782664F5AB006C20B4 /* FiraSans-Regular.ttf */; };
-		D0B7117F2664FACC006C20B4 /* Calculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B7117E2664FACC006C20B4 /* Calculation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +31,6 @@
 		D0B711712664F453006C20B4 /* Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
 		D0B711772664F5AB006C20B4 /* FiraSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Light.ttf"; sourceTree = "<group>"; };
 		D0B711782664F5AB006C20B4 /* FiraSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Regular.ttf"; sourceTree = "<group>"; };
-		D0B7117E2664FACC006C20B4 /* Calculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculation.swift; sourceTree = "<group>"; };
 		E9C73AC6780EA68E9B844FF6 /* Pods-Calculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calculator.release.xcconfig"; path = "Target Support Files/Pods-Calculator/Pods-Calculator.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,7 +87,6 @@
 				D0B7116D2664F151006C20B4 /* View */,
 				D069448C265D0F8500E90FC6 /* AppDelegate.swift */,
 				D0694490265D0F8500E90FC6 /* CalculatorViewController.swift */,
-				D0B7117E2664FACC006C20B4 /* Calculation.swift */,
 				D0694495265D0F9300E90FC6 /* Assets.xcassets */,
 				D0694497265D0F9300E90FC6 /* LaunchScreen.storyboard */,
 				D069449A265D0F9300E90FC6 /* Info.plist */,
@@ -232,7 +229,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0694491265D0F8500E90FC6 /* CalculatorViewController.swift in Sources */,
-				D0B7117F2664FACC006C20B4 /* Calculation.swift in Sources */,
 				D0B7116F2664F397006C20B4 /* Button.swift in Sources */,
 				D069448D265D0F8500E90FC6 /* AppDelegate.swift in Sources */,
 				D0B711722664F453006C20B4 /* Screen.swift in Sources */,
